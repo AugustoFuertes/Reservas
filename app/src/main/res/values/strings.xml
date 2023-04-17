@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Reservas</string>
+    <string name="seleccione_la_cancha">Seleccione la cancha</string>
+    <string name="seleccione_la_hora">Seleccione la hora</string>
+    <string-array name="horas">
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>00:00</item>
+    </string-array>
+    <string-array name="canchas">
+        <item>"Cancha de 8"</item>
+        <item>"Cancha de 5"</item>
+    </string-array>
+</resources>
