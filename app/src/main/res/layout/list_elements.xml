@@ -9,22 +9,22 @@
     app:cardUseCompatPadding="true">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="253dp"
         android:layout_height="wrap_content"
         android:animateLayoutChanges="true"
-        android:orientation="vertical"
         android:background="@color/black"
-        >
+        android:orientation="vertical">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/border"
             android:orientation="horizontal"
-            android:padding="6dp"
-            android:background="@drawable/border">
+            android:padding="6dp">
 
             <TextView
                 android:id="@+id/nombreClienteReserva"
-                android:layout_width="200dp"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:text="Fausto fermanelli"
                 android:textColor="@color/white"

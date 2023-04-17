@@ -82,14 +82,14 @@ public class ReservasActivity extends AppCompatActivity {
     public void init(){
 
         reservas= new ArrayList<>();
-        reservas.add(new Reserva("Fausto", "10:30", fechaActual, "cancha 1", "pago seña"));
-        reservas.add(new Reserva("Pedro", "11:30", fechaActual, "cancha 1", "pago seña"));
-        reservas.add(new Reserva("Fran", "12:30", fechaActual, "cancha 1", "pago seña"));
-        reservas.add(new Reserva("Lucho", "13:30", fechaActual, "cancha 1", "pago seña"));
-        reservas.add(new Reserva("Agus", "14:30", fechaActual, "cancha 1", "pago seña"));
-        reservas.add(new Reserva("Fausto", "10:30", fechaActual, "cancha 1", "pago seña"));
-        reservas.add(new Reserva("Pedro", "11:30", fechaActual, "cancha 1", "pago seña"));
-        reservas.add(new Reserva("Fran", "12:30", fechaActual, "cancha 1", "pago seña"));
+        reservas.add(new Reserva("Fausto", "10:00", fechaActual, "cancha 1", "pago seña"));
+        reservas.add(new Reserva("Pedro", "11:00", fechaActual, "cancha 1", "pago seña"));
+        reservas.add(new Reserva("Fran", "12:00", fechaActual, "cancha 1", "pago seña"));
+        reservas.add(new Reserva("Lucho", "13:00", fechaActual, "cancha 1", "pago seña"));
+        reservas.add(new Reserva("Agus", "14:00", fechaActual, "cancha 1", "pago seña"));
+        reservas.add(new Reserva("Fausto", "10:00", fechaActual, "cancha 1", "pago seña"));
+        reservas.add(new Reserva("Pedro", "11:00", fechaActual, "cancha 1", "pago seña"));
+        reservas.add(new Reserva("Fran", "12:00", fechaActual, "cancha 1", "pago seña"));
         reservas.add(new Reserva("Lucho", "13:30", fechaActual, "cancha 1", "pago seña"));
         reservas.add(new Reserva("Agus", "14:30", fechaActual, "cancha 1", "pago seña"));
         reservas.add(new Reserva("Fausto", "10:30", fechaActual, "cancha 1", "pago seña"));
