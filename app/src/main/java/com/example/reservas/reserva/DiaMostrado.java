@@ -14,13 +14,11 @@ import java.util.List;
 
 
 public class DiaMostrado extends RecyclerView.Adapter<DiaMostrado.ViewHolder> {
-    private Date date;
     private List<Reserva> reservas;
     private LayoutInflater inflater;
     private Context context;
 
-    public DiaMostrado(Date date, List<Reserva> reservas , Context context) {
-        this.date = date;
+    public DiaMostrado(List<Reserva> reservas , Context context) {
         this.inflater= LayoutInflater.from(context);
         this.context= context;
         this.reservas = reservas;
@@ -42,10 +40,6 @@ public class DiaMostrado extends RecyclerView.Adapter<DiaMostrado.ViewHolder> {
         holder.bindData(reservas.get(position));
     }
 
-
-    public Date getDate(){
-        return date;
-    }
 
     public List getReservas(){
         return reservas;
